@@ -454,12 +454,17 @@ begin
               end;
 
               end;
+
         end;
   '5' : begin
         exit;
 
         end;
+
   end;
+write('Menu yang dipilih salah');
+delay(2000);
+goto menu_awal;
 
 
 end.
